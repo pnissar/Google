@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <style>
+      .focus:focus {
+        outline: none;
+        box-shadow: none;
+      }
+      body {
+        background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWh0Z3hnMGg0ZGR3dWF2azVpbHoyZ2RvcmtwOGRtcW02MHgxdmVndiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iM9nHLueA60nfCMBTY/giphy.gif");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="nav justify-content-end px-3 py-2">
+      <li class="nav-item">
+        <a class="nav-link text-body-secondary fw-medium" href="#">Gmail</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-body-secondary fw-medium" href="#">Images</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-body-secondary" href="#"
+          ><svg
+            class="gb_E"
+            focusable="false"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+          >
+            <path
+              d="M209-120q-42 0-70.5-28.5T110-217q0-14 3-25.5t9-21.5l228-341q10-14 15-31t5-34v-110h-20q-13 0-21.5-8.5T320-810q0-13 8.5-21.5T350-840h260q13 0 21.5 8.5T640-810q0 13-8.5 21.5T610-780h-20v110q0 17 5 34t15 31l227 341q6 9 9.5 20.5T850-217q0 41-28 69t-69 28H209Zm221-660v110q0 26-7.5 50.5T401-573L276-385q-6 8-8.5 16t-2.5 16q0 23 17 39.5t42 16.5q28 0 56-12t80-47q69-45 103.5-62.5T633-443q4-1 5.5-4.5t-.5-7.5l-78-117q-15-21-22.5-46t-7.5-52v-110H430Z"
+            ></path></svg
+        ></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-body-secondary"
+          ><img src="https://ssl.gstatic.com/gb/images/bar/al-icon.png" alt=""
+        /></a>
+      </li>
+    </ul>
+    <div
+      class="container d-flex justify-content-center align-items-center flex-column flex-wrap"
+      style="height: 80vh"
+    >
+      <img
+        class=""
+        src="./logo2.png"
+        style="width: 272px; height: 92px"
+        alt=""
+      />
+      <div class="w-100 row d-flex justify-content-center">
+        <div class="col-6 col-sm-12 col-md-10 col-lg-8 col-xl-6">
+          <div
+            class="input-group mt-3 border rounded-pill shadow px-3 py-2 d-flex justify-content-center align-items-center"
+          >
+            <img src="./search.svg " alt="" />
+            <input
+              type="text"
+              class="form-control border-0 mx-2 focus bg-transparent"
+              placeholder="Search Google or type a URL"
+              aria-label="Search google or type a URL"
+            />
+            <img src="./mic.svg" alt="" />
+            <img src="./lens.svg" alt="" class="ps-3" />
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-4 d-flex flex-column flex-sm-row gap-2">
+        <button class="btn btn-light border rounded-pill px-4 py-2 shadow d-flex align-items-center gap-2">
+          <img width="24"  src="./gemini-color.svg" alt="">
+          Gemini 1.5 Pro
+        </button>
+        <button class="btn btn-light border rounded-pill px-4 py-2 shadow d-flex align-items-center gap-2">
+          <img width="24" src="./google-translate.svg" alt="" srcset="">
+          Translate
+        </button>
+      </div>
+      <div class="d-flex mt-3 w-100 gap-5 flex-wrap justify-content-center">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <button
+            class="btn btn-close-white border border-2 rounded-circle d-flex justify-content-center align-items-center shadow"
+            style="width: 46px; height: 46px"
+          >
+            <img width="26" src="./youtube.svg" alt="" srcset="" />
+          </button>
+          <h6 class="m-0 p-0">Youtube</h6>
+        </div>
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <button
+            class="btn btn-close-white border border-2 rounded-circle d-flex justify-content-center align-items-center shadow"
+            style="width: 46px; height: 46px"
+          >
+            <img width="26" src="./twitter.svg" alt="" srcset="" />
+          </button>
+          <h6 class="m-0 p-0">Twitter</h6>
+        </div>
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <button
+            class="btn btn-close-white border border-2 rounded-circle d-flex justify-content-center align-items-center shadow"
+            style="width: 46px; height: 46px"
+          >
+            <img width="32" src="./facebook.svg" alt="" srcset="" />
+          </button>
+          <h6 class="m-0 p-0">Facebook</h6>
+        </div>
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <button
+            class="btn btn-close-white border border-2 rounded-circle d-flex justify-content-center align-items-center shadow"
+            style="width: 46px; height: 46px"
+          >
+            <img width="30" src="./instagram.svg" alt="" srcset="" />
+          </button>
+          <h6 class="m-0 p-0">Instagram</h6>
+        </div>
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <button
+            class="btn btn-close-white border border-2 rounded-circle d-flex justify-content-center align-items-center shadow"
+            style="width: 46px; height: 46px"
+          >
+            <img width="26" src="./snapchat.svg" alt="" srcset="" />
+          </button>
+          <h6 class="m-0 p-0">Snapchat</h6>
+        </div>
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <button
+            class="btn btn-close-white border border-2 rounded-circle d-flex justify-content-center align-items-center shadow"
+            style="width: 46px; height: 46px"
+          >
+            <img width="26" src="./github.svg" alt="" srcset="" />
+          </button>
+          <h6 class="m-0 p-0">Github</h6>
+        </div>
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <button
+            class="btn btn-close-white border border-2 rounded-circle d-flex justify-content-center align-items-center shadow"
+            style="width: 46px; height: 46px"
+          >
+            <img width="26" src="./plus.svg" alt="" srcset="" />
+          </button>
+          <h6 class="m-0 p-0">Add Shortcut</h6>
+        </div>
+      </div>  
+    </div>
+    <button
+      class="btn btn-white bg-transparent rounded-circle px-2 py-2 border-2 border-secondary shadow position-absolute bottom-0 end-0 m-4"
+    >
+      <img src="./edit.svg" alt="" srcset="" />
+    </button>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
